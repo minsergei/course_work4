@@ -50,5 +50,6 @@ class HeadHunterAPI:
 hh = HeadHunterAPI()
 pars_hh = Parser(hh.load_vacancies('python'))
 list_vacancies = pars_hh.get_pars()
+print(list_vacancies)
 print(len(list_vacancies))
 [print(i) for i in list_vacancies]
