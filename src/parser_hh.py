@@ -9,25 +9,29 @@ class Parser:
         self.file_vacancies = file_vacancies
 
     def get_pars(self):
+        """
+        Переделываем вывод данных для создания объектов класса вакансия и сохранения в json-файл
+        """
         vacancies = []
         for item in self.file_vacancies:
+            new_name = item["name"].replace('"', "'")
             if not item["salary"]:
-                create_dict = {"name": item["name"], "experience": item["experience"]["name"],
+                create_dict = {"name": new_name, "experience": item["experience"]["name"],
                                "salary_from": 0, "salary_to": 0,
                                "snippet": item["snippet"]["responsibility"], "url": item["alternate_url"]}
                 vacancies.append(create_dict)
             elif not item["salary"]["from"]:
-                create_dict = {"name": item["name"], "experience": item["experience"]["name"],
+                create_dict = {"name": new_name, "experience": item["experience"]["name"],
                                "salary_from": 0, "salary_to": item["salary"]["to"],
                                "snippet": item["snippet"]["responsibility"], "url": item["alternate_url"]}
                 vacancies.append(create_dict)
             elif not item["salary"]["to"]:
-                create_dict = {"name": item["name"], "experience": item["experience"]["name"],
+                create_dict = {"name": new_name, "experience": item["experience"]["name"],
                                "salary_from": item["salary"]["from"], "salary_to": 0,
                                "snippet": item["snippet"]["responsibility"], "url": item["alternate_url"]}
                 vacancies.append(create_dict)
             else:
-                create_dict = {"name": item["name"], "experience": item["experience"]["name"],
+                create_dict = {"name": new_name, "experience": item["experience"]["name"],
                                "salary_from": item["salary"]["from"], "salary_to": item["salary"]["to"],
                                "snippet": item["snippet"]["responsibility"], "url": item["alternate_url"]}
                 vacancies.append(create_dict)
@@ -37,7 +41,7 @@ class Parser:
 class HeadHunterAPI:
     """
     Класс для получения данных о вакансиях с сайта hh.ru
-    :param Параметр для поиска: ключевое слово, количество вакансий в выводе, регион поиска(1575 - Пенза)
+    :param Параметр для поиска: ключевое слово, количество вакансий в выводе(50), регион поиска(1575 - Пенза)
     """
     def __init__(self):
         self.url = "https://api.hh.ru/vacancies/"

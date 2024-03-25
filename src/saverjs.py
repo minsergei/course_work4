@@ -28,6 +28,9 @@ class JsonSaver(Saver):
                 json.dump(load_outfile, outfile, ensure_ascii=False, indent=4)
 
     def delete_vacancy(self, name: str):
+        """
+        Удаляем вакансию по названию вакансии
+        """
         with open(self.file_json, self.mode) as outfile:
             if not os.stat(self.file_json).st_size == 0:
                 text = json.load(outfile)
@@ -38,7 +41,6 @@ class JsonSaver(Saver):
                 new_len2 = new_len[::-1]
                 for i in new_len2:
                     del text[i]
-                print(len(text))
             else:
                 print("Файл пустой")
         with open(self.file_json, "w") as outfile:

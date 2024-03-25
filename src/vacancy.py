@@ -1,12 +1,10 @@
 import json
-# from src.saverjs import JsonSaver
-# import os
 
 
 class Vacancy:
     vacancy_list = []
 
-    def __init__(self, name, experience, salary_from, salary_to, snippet, url):
+    def __init__(self, name: str, experience: str, salary_from: int, salary_to: int, snippet: str, url: str):
         self.name = name
         self.experience = experience
         self.salary_from = salary_from
@@ -113,7 +111,7 @@ class Vacancy:
     @staticmethod
     def get_top(top: int):
         """
-        Выводит топ вакансий по зарплате
+        Выводит топ вакансий по зарплате и передает данные для записи в json файл
         """
         sorted_vacancy = sorted(Vacancy.vacancy_list, reverse=True)
         top = (sorted_vacancy[:top])

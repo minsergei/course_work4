@@ -1,4 +1,4 @@
-def get_filter_vacancies(data, keys_word):
+def get_filter_vacancies(data, keys_word: list):
     """
     Функция отбирает вакансии по ключевым словам в описании вакансии
     """
