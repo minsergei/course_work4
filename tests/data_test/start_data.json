@@ -1,0 +1,361 @@
+[
+    {
+        "id": "94640824",
+        "premium": false,
+        "name": "Продавец-консультант в шоу-рум ( выплаты ежедневно)",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "71",
+            "name": "Пенза",
+            "url": "https://api.hh.ru/areas/71"
+        },
+        "salary": {
+            "from": null,
+            "to": 95000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Пенза",
+            "street": null,
+            "building": null,
+            "lat": 53.195042,
+            "lng": 45.018316,
+            "description": null,
+            "raw": "Пенза",
+            "metro": null,
+            "metro_stations": [],
+            "id": "15331702"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-03-24T22:16:27+0300",
+        "created_at": "2024-03-24T22:16:27+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=94640824",
+        "show_logo_in_search": null,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/94640824?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/94640824",
+        "relations": [],
+        "employer": {
+            "id": "5201123",
+            "name": "Garment Group",
+            "url": "https://api.hh.ru/employers/5201123",
+            "alternate_url": "https://hh.ru/employer/5201123",
+            "logo_urls": {
+                "240": "https://img.hhcdn.ru/employer-logo/5829418.jpeg",
+                "90": "https://img.hhcdn.ru/employer-logo/5829417.jpeg",
+                "original": "https://img.hhcdn.ru/employer-logo-original/1052191.jpg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5201123",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Энергичность, общительность. Умение работать в команде. Ответственность и пунктуальность. Опрятный внешний вид и грамотно поставленная русская речь.",
+            "responsibility": "Консультации покупателей и продажа одежды(работа без кассы). Помощь в примерке. Работа с ценниками, выкладка товара, отпаривание одежды. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": true,
+        "professional_roles": [
+            {
+                "id": "40",
+                "name": "Другое"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "noExperience",
+            "name": "Нет опыта"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "94640824",
+        "premium": false,
+        "name": "Продавец-консультант в шоу-рум ( выплаты ежедневно)",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "71",
+            "name": "Пенза",
+            "url": "https://api.hh.ru/areas/71"
+        },
+        "salary": {
+            "from": 55000,
+            "to": 95000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Пенза",
+            "street": null,
+            "building": null,
+            "lat": 53.195042,
+            "lng": 45.018316,
+            "description": null,
+            "raw": "Пенза",
+            "metro": null,
+            "metro_stations": [],
+            "id": "15331702"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-03-24T22:16:27+0300",
+        "created_at": "2024-03-24T22:16:27+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=94640824",
+        "show_logo_in_search": null,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/94640824?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/94640824",
+        "relations": [],
+        "employer": {
+            "id": "5201123",
+            "name": "Garment Group",
+            "url": "https://api.hh.ru/employers/5201123",
+            "alternate_url": "https://hh.ru/employer/5201123",
+            "logo_urls": {
+                "240": "https://img.hhcdn.ru/employer-logo/5829418.jpeg",
+                "90": "https://img.hhcdn.ru/employer-logo/5829417.jpeg",
+                "original": "https://img.hhcdn.ru/employer-logo-original/1052191.jpg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5201123",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Энергичность, общительность. Умение работать в команде. Ответственность и пунктуальность. Опрятный внешний вид и грамотно поставленная русская речь.",
+            "responsibility": "Консультации покупателей и продажа одежды(работа без кассы). Помощь в примерке. Работа с ценниками, выкладка товара, отпаривание одежды. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": true,
+        "professional_roles": [
+            {
+                "id": "40",
+                "name": "Другое"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "noExperience",
+            "name": "Нет опыта"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "94640824",
+        "premium": false,
+        "name": "Продавец-консультант в шоу-рум ( выплаты ежедневно)",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "71",
+            "name": "Пенза",
+            "url": "https://api.hh.ru/areas/71"
+        },
+        "salary": {
+            "from": 30000,
+            "to": null,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Пенза",
+            "street": null,
+            "building": null,
+            "lat": 53.195042,
+            "lng": 45.018316,
+            "description": null,
+            "raw": "Пенза",
+            "metro": null,
+            "metro_stations": [],
+            "id": "15331702"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-03-24T22:16:27+0300",
+        "created_at": "2024-03-24T22:16:27+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=94640824",
+        "show_logo_in_search": null,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/94640824?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/94640824",
+        "relations": [],
+        "employer": {
+            "id": "5201123",
+            "name": "Garment Group",
+            "url": "https://api.hh.ru/employers/5201123",
+            "alternate_url": "https://hh.ru/employer/5201123",
+            "logo_urls": {
+                "240": "https://img.hhcdn.ru/employer-logo/5829418.jpeg",
+                "90": "https://img.hhcdn.ru/employer-logo/5829417.jpeg",
+                "original": "https://img.hhcdn.ru/employer-logo-original/1052191.jpg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5201123",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Энергичность, общительность. Умение работать в команде. Ответственность и пунктуальность. Опрятный внешний вид и грамотно поставленная русская речь.",
+            "responsibility": "Консультации покупателей и продажа одежды(работа без кассы). Помощь в примерке. Работа с ценниками, выкладка товара, отпаривание одежды. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": true,
+        "professional_roles": [
+            {
+                "id": "40",
+                "name": "Другое"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "noExperience",
+            "name": "Нет опыта"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "94640824",
+        "premium": false,
+        "name": "Продавец-консультант в шоу-рум ( выплаты ежедневно)",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "71",
+            "name": "Пенза",
+            "url": "https://api.hh.ru/areas/71"
+        },
+        "salary": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Пенза",
+            "street": null,
+            "building": null,
+            "lat": 53.195042,
+            "lng": 45.018316,
+            "description": null,
+            "raw": "Пенза",
+            "metro": null,
+            "metro_stations": [],
+            "id": "15331702"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-03-24T22:16:27+0300",
+        "created_at": "2024-03-24T22:16:27+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=94640824",
+        "show_logo_in_search": null,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/94640824?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/94640824",
+        "relations": [],
+        "employer": {
+            "id": "5201123",
+            "name": "Garment Group",
+            "url": "https://api.hh.ru/employers/5201123",
+            "alternate_url": "https://hh.ru/employer/5201123",
+            "logo_urls": {
+                "240": "https://img.hhcdn.ru/employer-logo/5829418.jpeg",
+                "90": "https://img.hhcdn.ru/employer-logo/5829417.jpeg",
+                "original": "https://img.hhcdn.ru/employer-logo-original/1052191.jpg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5201123",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Энергичность, общительность. Умение работать в команде. Ответственность и пунктуальность. Опрятный внешний вид и грамотно поставленная русская речь.",
+            "responsibility": "Консультации покупателей и продажа одежды(работа без кассы). Помощь в примерке. Работа с ценниками, выкладка товара, отпаривание одежды. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": true,
+        "professional_roles": [
+            {
+                "id": "40",
+                "name": "Другое"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "noExperience",
+            "name": "Нет опыта"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    }
+]

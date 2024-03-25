@@ -5,7 +5,7 @@ class Vacancy:
     vacancy_list = []
 
     def __init__(self, name: str, experience: str, salary_from: int, salary_to: int, snippet: str, url: str):
-        self.name = name
+        self.__name = name
         self.experience = experience
         self.salary_from = salary_from
         self.salary_to = salary_to
@@ -16,7 +16,8 @@ class Vacancy:
         """
         :return: Возвращает словарь для инициализации объекта
         """
-        dict_vacancy = (f'"name": "{self.name}", "experience": "{self.experience}", "salary_from": {self.salary_from}, '
+        dict_vacancy = (f'"name": "{self.get_name}", "experience": "{self.experience}", '
+                        f'"salary_from": {self.salary_from}, '
                         f'"salary_to": {self.salary_to}, "snippet": "{self.snippet}", "url": "{self.url}"')
         return '{' + dict_vacancy + '}'
 
@@ -24,7 +25,7 @@ class Vacancy:
         """
         Описание объекта вакансии
         """
-        return (f"\nВакансия: {self.name}\nЗарплата: {self.salary_from} руб. - {self.salary_to} руб.\n"
+        return (f"\nВакансия: {self.get_name}\nЗарплата: {self.salary_from} руб. - {self.salary_to} руб.\n"
                 f"Опыт работы: {self.experience}\nОписание: {self.snippet}")
 
     def __lt__(self, other):
@@ -95,6 +96,10 @@ class Vacancy:
             return self.salary_to != other.salary_from
         else:
             return self.salary_to != other.salary_to
+
+    @property
+    def get_name(self):
+        return self.__name
 
     @classmethod
     def cast_to_object_list(cls, vacancy_json):

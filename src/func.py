@@ -25,7 +25,7 @@ def get_ranged_vacancies(data, sal_range: str):
             str_sal_range += " "
     salary = str_sal_range.split()
     if len(salary) != 2 or int(salary[0]) > int(salary[1]):
-        print("Введен не верный диапозон зарплат")
+        raise TypeError("Введен не верный диапозон зарплат")
     else:
         for item in data:
             if (((item["salary_from"] <= int(salary[0]) <= item["salary_to"] or
